@@ -24,6 +24,8 @@ Configuramos el CLUSTER
 
 ## Realizar una operación en una de las instancias a nivel de configuración y verificar que el cambio se ha aplicado al resto de instancias
 
+### NULL
+
 ## Diferencias que existiría si el montaje se hubiera realizado con el objeto de ReplicaSet
 
 A la momento de escalar o descalar de haria de forma aleatoria
