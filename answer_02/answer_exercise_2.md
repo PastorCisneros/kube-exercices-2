@@ -26,4 +26,5 @@ Configuramos el CLUSTER
 
 ## Diferencias que existiría si el montaje se hubiera realizado con el objeto de ReplicaSet
 
-Si se utiliza el ReplicaSet los pods cambiarían su nombre por lo que el DNS interno no encontraria los nombres configurados en mongo para el cluster (ej. mongo-cluster-0). Ademas a la hora de escalar y desescalar no se haría de manera ordenada si no aleatoria.
+A la momento de escalar o descalar de haria de forma aleatoria
+El ReplicaSet cambia los nombres de los pods del DNS interno por lo que  no encontraria los nombres  en mongo del cluster. .
